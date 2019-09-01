@@ -1,0 +1,25 @@
+
+>> git init (iniciar o controle do projeto via git)
+>> git add . ou git add <nome do arquivo> (adiciona o arquivo no stage de modificação)
+>> git log (mostra os arquivos adicionados)
+>> git status (mostra os aruivos que foram modificados e os arquivos que foram modificados mais não está adicionado na alteração)
+>> git commit -m "<mensagem da modificação>" (irá postar na branch todas as modificações)
+>> git commit -am "<mensagem da modificação>" (adiciona os pontos na historia e comita ao mesmo tempo)
+>> git show 
+
+>> git branch <NomeDaBranch> (cria uma nova branch)
+>> git branch -D <NomeDaBranch> (Deleta a branch)
+>> git branch (lista todas as branchs)
+>> git checkout <NomeDaBranch> (altera para branch)
+>> git checkout -b <NomeDaBranch> (cria uma nova branch e altera para essa branch)
+>> git merge <NomeDaBranch> (junta as branchs, exemplo traz pra master a alterações de outra branch)
+
+>> git remote add origin <caminhoDoGitHub> (adiciona um novo repositorio remoto)
+>> git remote -v (lista todos o repositorios remotos)
+>> git push -u origin master (fazer a primeira vez para criar o repositorio master no git hub)
+>> git push (empurra o projeto para git hub)
+
+>> git clone <caminhoDoGitHub> (baixa para o PC um projeto do git hub)
+>> git clone <caminhoDoGitHub> <nomeDaNovaPasta> (baixa para o PC um projeto do git hub, porem baixa em uma nova pasta )
+
+>> git pull 
