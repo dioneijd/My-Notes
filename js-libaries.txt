@@ -1,0 +1,63 @@
+___________________________________________________________________________________________________________
+-- yarn 
+choco install yarn
+
+>> quando colocar -D no final instalar a biblioteca como dependencia de desenvolvimento
+
+___________________________________________________________________________________________________________
+-- express
+yarn add express
+
+
+___________________________________________________________________________________________________________
+-- nodemon
+yarn add nodemon -D
+
+>> Utilizado para reiniciar o serviço automaticamente
+
+___________________________________________________________________________________________________________
+-- mongoose
+yarn add mongoose
+
+>> biblioteca para o mongoDB
+
+___________________________________________________________________________________________________________
+-- multer
+yarn add multer
+
+>> é uma biblioteca que automatiza o processo de upload de arquivos e tambem permite receber auquivos por requezição json
+
+___________________________________________________________________________________________________________
+-- sharp
+yarn add sharp
+
+>> Utilizado para manipular as imagens. Exemplo alterar o tamanho e qualidade.
+
+___________________________________________________________________________________________________________
+-- Cors
+yarn add cors
+
+
+___________________________________________________________________________________________________________
+-- Socket.io
+yarn add socket.io
+
+
+
+___________________________________________________________________________________________________________
+-- path
+
+>> Biblioteca nativa do node.js, otima para definir a os caminhos das pastas, não importa se a aplicação está rodando em windows ou linux
+>> __dirname: path do local do arquivo em o comando está sendo inserido
+>> '..' : volta um nivel na pasta
+
+
+
+___________________________________________________________________________________________________________
+-- fs (file system)
+
+>> Biblioteca nativa do node.js, manipular os arquivos.
+>> unlinkSync('path + filename'): apaga o arquivo
+
+
+
