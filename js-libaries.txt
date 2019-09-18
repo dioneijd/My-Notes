@@ -1,54 +1,55 @@
 ___________________________________________________________________________________________________________
--- yarn 
-choco install yarn
+******* yarn *******
+>> choco install yarn
+>> yarn init -y
 
->> quando colocar -D no final instalar a biblioteca como dependencia de desenvolvimento
-
-___________________________________________________________________________________________________________
--- express
-yarn add express
-
+- Quando colocar -D no final instalar a biblioteca como dependencia de desenvolvimento
 
 ___________________________________________________________________________________________________________
--- nodemon
+******* express *******
+>> yarn add express
+
+
+___________________________________________________________________________________________________________
+******* nodemon *******
 yarn add nodemon -D
 
 >> Utilizado para reiniciar o serviço automaticamente
 
 ___________________________________________________________________________________________________________
--- mongoose
+******* mongoose *******
 yarn add mongoose
 
 >> biblioteca para o mongoDB
 
 ___________________________________________________________________________________________________________
--- multer
+******* multer *******
 yarn add multer
 
 >> é uma biblioteca que automatiza o processo de upload de arquivos e tambem permite receber auquivos por requezição json
 
 ___________________________________________________________________________________________________________
--- sharp
+******* sharp *******
 yarn add sharp
 
 >> Utilizado para manipular as imagens. Exemplo alterar o tamanho e qualidade.
 
 ___________________________________________________________________________________________________________
--- Cors
+******* Cors *******
 yarn add cors
 
 
 ___________________________________________________________________________________________________________
--- Socket.io
+******* Socket.io *******
 yarn add socket.io
 ___________
 ________________________________________________________________________________________________
--- Socket.io Client side
+******* Socket.io Client side *******
 yarn add socket.io-client
 
 
 ___________________________________________________________________________________________________________
--- path
+******* path *******
 
 >> Biblioteca nativa do node.js, otima para definir a os caminhos das pastas, não importa se a aplicação está rodando em windows ou linux
 >> __dirname: path do local do arquivo em o comando está sendo inserido
@@ -57,22 +58,22 @@ ________________________________________________________________________________
 
 
 ___________________________________________________________________________________________________________
--- fs (file system)
+******* fs (file system) *******
 
 >> Biblioteca nativa do node.js, manipular os arquivos.
 >> unlinkSync('path + filename'): apaga o arquivo
 
 ___________________________________________________________________________________________________________
--- React
+******* React *******
 yarn create react-app frontend
 
 
 ___________________________________________________________________________________________________________
--- React Router Dom
+******* React Router Dom *******
 yarn add react-router-dom
 
 ___________________________________________________________________________________________________________
--- React Router Dom
+******* axios *******
 yarn add axios
 
 
