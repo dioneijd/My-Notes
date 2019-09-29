@@ -9,72 +9,76 @@ ________________________________________________________________________________
 ******* express *******
 >> yarn add express
 
+- https://expressjs.com
+
 
 ___________________________________________________________________________________________________________
 ******* nodemon *******
-yarn add nodemon -D
+>> yarn add nodemon -D
 
->> Utilizado para reiniciar o serviço automaticamente
+- Utilizado para reiniciar o serviço automaticamente
 
 ___________________________________________________________________________________________________________
 ******* mongoose *******
-yarn add mongoose
+>> yarn add mongoose
 
->> biblioteca para o mongoDB
+- https://mongoosejs.com
+- biblioteca para o mongoDB
 
 ___________________________________________________________________________________________________________
 ******* multer *******
-yarn add multer
+>> yarn add multer
 
->> é uma biblioteca que automatiza o processo de upload de arquivos e tambem permite receber auquivos por requezição json
+- é uma biblioteca que automatiza o processo de upload de arquivos e tambem permite receber auquivos por requezição json
 
 ___________________________________________________________________________________________________________
 ******* sharp *******
-yarn add sharp
+>> yarn add sharp
 
->> Utilizado para manipular as imagens. Exemplo alterar o tamanho e qualidade.
+- Utilizado para manipular as imagens. Exemplo alterar o tamanho e qualidade.
 
 ___________________________________________________________________________________________________________
 ******* Cors *******
-yarn add cors
+>> yarn add cors
 
 
 ___________________________________________________________________________________________________________
 ******* Socket.io *******
-yarn add socket.io
-___________
-________________________________________________________________________________________________
+>> yarn add socket.io
+
+
+__________________________________________________________________________________________________________
 ******* Socket.io Client side *******
-yarn add socket.io-client
+>> yarn add socket.io-client
 
 
 ___________________________________________________________________________________________________________
 ******* path *******
 
->> Biblioteca nativa do node.js, otima para definir a os caminhos das pastas, não importa se a aplicação está rodando em windows ou linux
->> __dirname: path do local do arquivo em o comando está sendo inserido
->> '..' : volta um nivel na pasta
+- Biblioteca nativa do node.js, otima para definir a os caminhos das pastas, não importa se a aplicação está rodando em windows ou linux
+- __dirname: path do local do arquivo em o comando está sendo inserido
+- '..' : volta um nivel na pasta
 
 
 
 ___________________________________________________________________________________________________________
 ******* fs (file system) *******
 
->> Biblioteca nativa do node.js, manipular os arquivos.
->> unlinkSync('path + filename'): apaga o arquivo
+- Biblioteca nativa do node.js, manipular os arquivos.
+- unlinkSync('path + filename'): apaga o arquivo
 
 ___________________________________________________________________________________________________________
 ******* React *******
-yarn create react-app frontend
+>> yarn create react-app frontend
 
 
 ___________________________________________________________________________________________________________
 ******* React Router Dom *******
-yarn add react-router-dom
+>> yarn add react-router-dom
 
 ___________________________________________________________________________________________________________
 ******* axios *******
-yarn add axios
+>> yarn add axios
 
 
 
