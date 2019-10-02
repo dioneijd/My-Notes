@@ -1,5 +1,16 @@
-{
 
+******** VS Extension *******
+
+
+
+
+
+******** VS Configuration *******
+
+
+>>> fazer o intelligence sence mostrar as tags de html no react
+
+{
     "emmet.syntaxProfiles": {
         "javascript": "jsx",        
     },
