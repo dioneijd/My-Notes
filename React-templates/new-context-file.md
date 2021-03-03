@@ -13,7 +13,7 @@ interface REPLACE_HERE_ProviderProps {
     children: ReactNode
 }
 
-const REPLACE_HERE_Context = createContext({} as REPLACE_HERE_ContextData)
+export const REPLACE_HERE_Context = createContext({} as REPLACE_HERE_ContextData)
 
 export function REPLACE_HERE_Provider({ children }: REPLACE_HERE_ProviderProps){
     return (
