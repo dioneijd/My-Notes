@@ -161,7 +161,7 @@ fs.writeFileSync(contentFilePath, 'text to write')
 
 ## React
 ```
-yarn create react-app <FolderName>
+yarn create react-app <my-project-name> --template=typescript
 ```
 ---
 ## React Router Dom
@@ -169,10 +169,29 @@ yarn create react-app <FolderName>
 yarn add react-router-dom
 ```
 ---
+## Nextjs
+```
+yarn create next-app <my-project-name>
+```
+---
 ## Axios
 ```
 yarn add axios
 ```
+---
+## Typescript
+```
+yarn add typescript -D
+```
+---
+## Typescript types
+```
+yarn add @types/react -D
+yarn add @types/react-dom -D
+yarn add @types/node -D
+yarn add @types/js-cookie -D
 
+Check available types: https://github.com/DefinitelyTyped/DefinitelyTyped
+```
 
 

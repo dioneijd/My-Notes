@@ -9,10 +9,19 @@
 ## VS Settings
 
 
-> Fazer o intelligence sence mostrar as tags de html no react
+> 
 
 ```json
 {
+    
+    "editor.rulers": [100],
+    "editor.minimap.enabled": false,
+    
+    // importar automaticamente as referencias
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+
+    //Fazer o intelligence sence mostrar as tags de html no react
     "emmet.syntaxProfiles": {
         "javascript": "jsx",        
     },
