@@ -173,6 +173,14 @@ yarn add react-router-dom
 ```
 yarn create next-app <my-project-name>
 ```
+
+- pode deletar as pastas:  styles e pages >> api
+- pode deletar os arquivos: public >> favicon.ico e vercel.svg
+- arquivo index.js pode remover todas as tags dentro do return e os imports
+- renomear o arquivo index.js para index.tsx
+- arquivo _app.js remover os imports e renomear o arquivo _app.js para _app.tsx
+
+
 ---
 ## Axios
 ```
