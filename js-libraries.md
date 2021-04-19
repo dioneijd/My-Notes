@@ -97,6 +97,27 @@ yarn add cors
 ```
 
 ---
+## bcryptjs
+
+```
+yarn add bcryptjs
+```
+---
+
+
+## dotenv
+
+```
+yarn add dotenv
+```
+### Code example
+```js
+require('dotenv').config({ path: '../../.env' })
+const PORT = process.env.PORT
+```
+
+---
+
 
 ## Socket.io
 
@@ -187,6 +208,11 @@ yarn create next-app <my-project-name>
 ## Axios
 ```
 yarn add axios
+```
+---
+## Json Web Token (JWT)
+```
+yarn add jsonwebtoken
 ```
 ---
 ## Typescript
