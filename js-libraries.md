@@ -218,14 +218,31 @@ yarn add jsonwebtoken
 ## Typescript
 ```
 yarn add typescript -D
+yarn tsc --init
 ```
+>>> tsc init irá criar o arquivo tsconfig.json. Configurar strict para false.
+
 ---
+## Typescript Node Dev
+A dependencia ts-node-dev resolve os problema de incompatibilidades da versão atual do Node com ES6. Além disso já faz o papel do auto reload, então não precisa mais do nodemon.
+```
+yarn ts-node-dev -D
+```
+>>> exemplo do script para executar a aplicação: 
+````json
+"scripts": {
+  "DEV": "ts-node-dev src/index.ts"
+}
+````
+---
+
 ## Typescript types
 ```
 yarn add @types/react -D
 yarn add @types/react-dom -D
 yarn add @types/node -D
 yarn add @types/js-cookie -D
+yarn add @types/express -D
 
 Check available types: https://github.com/DefinitelyTyped/DefinitelyTyped
 ```
