@@ -15,7 +15,7 @@ interface REPLACE_HERE_ProviderProps {
 
 export const REPLACE_HERE_Context = createContext({} as REPLACE_HERE_ContextData)
 
-export function REPLACE_HERE_Provider({ children }: REPLACE_HERE_ProviderProps){
+export function REPLACE_HERE_ProviderCtx({ children }: REPLACE_HERE_ProviderProps){
     return (
         <REPLACE_HERE_Context.Provider value={{}}>
             {children}
